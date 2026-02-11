@@ -1,0 +1,667 @@
+ /* =========================================
+   MOBILE EXACT NAVBAR (320px - 480px)
+   Same design, single line, slim like Amazon
+=========================================*/
+
+@media (min-width:320px) and (max-width:480px){
+
+/* ===== TOP NAVBAR ===== */
+
+.navbar{
+    height:42px;                     /* slim */
+    justify-content:space-between;
+    padding:0 4px;
+    flex-wrap:nowrap;
+}
+
+/* LOGO */
+.nav-logo{
+    width:65px;
+    height:32px;
+    margin-right:2px;
+}
+.logo{
+    width:65px;
+    height:32px;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+/* ADDRESS SMALL */
+.nav-adress{
+    font-size:0.55rem;
+}
+.add-first{
+    font-size:0.55rem;
+    margin-left:3px;
+}
+.add-sec{
+    font-size:0.65rem;
+}
+
+/* SEARCH BAR FIT */
+.nav-search{
+    width:52%;
+    height:28px;
+    margin:0;
+}
+#search-select{
+    width:34px;
+    font-size:0.6rem;
+}
+.search-input{
+    font-size:0.7rem;
+}
+.search-icon{
+    width:34px;
+    font-size:0.9rem;
+}
+
+/* SIGNIN + RETURNS SMALL */
+.nav-sginin span,
+.nav-returns span{
+    font-size:0.55rem;
+}
+.nav-sec{
+    font-size:0.6rem;
+}
+
+/* CART SMALL */
+.nav-cart{
+    font-size:0.6rem;
+}
+.nav-cart i{
+    font-size:16px;
+}
+
+/* ===== SECOND NAVBAR PANEL ===== */
+
+.panal{
+    height:28px;                     /* slim */
+    justify-content:flex-start;
+    flex-wrap:nowrap;
+    overflow-x:auto;                 /* scroll like amazon */
+    white-space:nowrap;
+    padding:0 4px;
+}
+
+/* ALL BUTTON */
+.all-panel{
+    font-size:0.65rem;
+    margin-right:6px;
+}
+
+/* PANEL ITEMS ONE LINE */
+.panel-ops{
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+.panel-ops p{
+    font-size:0.62rem;
+    margin:0 5px;
+    padding:2px 3px;
+    white-space:nowrap;
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero-section{
+    height:180px;                  /* compressed hero */
+    background-position:center;
+    background-size:cover;
+}
+
+/* ===== SHOP SECTION ===== */
+
+.shop-section{
+    justify-content:space-evenly;
+    padding:4px;
+}
+
+/* BOX SIZE (2 per row like amazon mobile) */
+.box{
+    width:48%;
+    height:auto;
+    margin-top:8px;
+}
+
+/* IMAGE SIZE SMALL */
+.box1-image,
+.box2-image,
+.box3-image,
+.box4-image,
+.box5-image,
+.box6-image,
+.box7-image,
+.box8-image{
+    height:140px;
+    background-size:cover;
+    background-position:center;
+}
+
+/* TEXT SCALE */
+.box-content{
+    margin:6px;
+}
+
+.box-content h2{
+    font-size:0.8rem;
+}
+
+.box-content p{
+    font-size:0.7rem;
+}
+
+/* ===== EXTRA SMALL (VERY NARROW 320px) ===== */
+
+@media (max-width:360px){
+
+.box{
+    width:95%;        /* single column for very small */
+}
+
+.hero-section{
+    height:150px;
+}
+
+.box1-image,
+.box2-image,
+.box3-image,
+.box4-image,
+.box5-image,
+.box6-image,
+.box7-image,
+.box8-image{
+    height:130px;
+}
+
+}
+
+/* BACK TO TOP */
+.foot-panel{
+    height:42px;
+    font-size:0.8rem;
+}
+
+/* ===== LINKS SECTION — ROW STYLE ===== */
+
+.foot-panel2{
+    display:block;        /* remove columns */
+    height:auto;
+    padding:12px 14px;
+}
+
+/* EACH SECTION FULL WIDTH */
+.foot-panel2 ul{
+    width:100%;
+    margin:12px 0;
+}
+
+/* HEADING */
+.foot-panel2 ul p{
+    font-size:0.8rem;
+    font-weight:600;
+    margin-bottom:6px;
+}
+
+/* LINKS PARAGRAPH STYLE */
+.foot-panel2 ul a{
+    display:inline-block;
+    font-size:0.72rem;
+    margin:3px 6px 3px 0;
+}
+
+/* ===== LOGO BAR ===== */
+
+.foot-panel3{
+    height:55px;
+}
+
+.logo2{
+    width:85px;
+    height:36px;
+    background-size:contain;
+}
+
+/* ===== COUNTRY / LANGUAGE BAR CENTER ===== */
+
+.foot-panel3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+
+/* ===== COPYRIGHT ===== */
+
+.foot-panel4{
+    height:auto;
+    font-size:0.72rem;
+    padding:10px 6px;
+}
+
+/* PAGE LINKS LINE BY LINE */
+.pages{
+    padding:8px;
+}
+
+.pages a{
+    display:block;
+    margin:4px 0;
+    font-size:0.7rem;
+}
+
+/* COPY TEXT */
+.copy{
+    font-size:0.68rem;
+}
+
+/* ===== EXTRA SMALL ===== */
+
+@media (max-width:360px){
+
+.foot-panel2 ul a{
+    font-size:0.68rem;
+}
+
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+@media (min-width:481px) and (max-width:768px){
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    height:auto;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding:6px 10px;
+}
+
+.nav-logo{
+    width:90px;
+    height:45px;
+}
+
+.logo{
+    width:90px;
+    height:45px;
+    background-size:contain;
+}
+
+/* ADDRESS HIDE (space bachane ke liye) */
+.nav-adress{
+    display:none;
+}
+
+/* SEARCH BAR FULL WIDTH */
+.nav-search{
+    order:3;
+    width:100%;
+    height:38px;
+    margin:6px 0;
+}
+
+#search-select{
+    width:45px;
+    font-size:0.8rem;
+}
+
+.search-input{
+    font-size:0.85rem;
+}
+
+.search-icon{
+    width:45px;
+    font-size:1.2rem;
+}
+
+/* SIGNIN + RETURNS SMALL */
+.nav-sginin,
+.nav-returns{
+    font-size:0.75rem;
+}
+
+.nav-sec{
+    font-size:0.8rem;
+}
+
+/* CART SMALL */
+.nav-cart i{
+    font-size:22px;
+}
+
+.nav-cart{
+    font-size:0.8rem;
+}
+
+/* ================= PANEL ================= */
+
+.panal{
+    height:auto;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    padding:4px 6px;
+}
+
+.panel-ops{
+    width:100%;
+    overflow-x:auto;
+    white-space:nowrap;
+}
+
+.panel-ops p{
+    font-size:0.75rem;
+    margin:3px 6px;
+}
+
+/* ================= HERO ================= */
+
+.hero-section{
+    height:300px;
+    background-position:center;
+}
+
+/* ================= SHOP ================= */
+
+.shop-section{
+    justify-content:space-evenly;
+}
+
+.box{
+    width:48%;          /* 2 boxes per row */
+    height:350px;
+}
+
+.box1-image,
+.box2-image,
+.box3-image,
+.box4-image,
+.box5-image,
+.box6-image,
+.box7-image,
+.box8-image{
+    height:240px;
+}
+
+/* ================= FOOTER ================= */
+
+/* BACK TO TOP */
+.foot-panel{
+    height:45px;
+    font-size:0.9rem;
+}
+
+/* LINKS GRID (2 columns tablet) */
+.foot-panel2{
+    height:auto;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding:20px;
+}
+
+.foot-panel2 ul{
+    width:48%;
+    margin-bottom:20px;
+}
+
+.foot-panel2 ul p{
+    font-size:0.9rem;
+    margin-bottom:6px;
+}
+
+.foot-panel2 ul a{
+    font-size:0.8rem;
+    margin-top:8px;
+}
+
+/* LOGO BAR */
+.foot-panel3{
+    height:60px;
+}
+
+.logo2{
+    width:90px;
+    height:40px;
+    background-size:contain;
+}
+
+/* COPYRIGHT */
+.foot-panel4{
+    height:auto;
+    font-size:0.85rem;
+    padding:12px;
+}
+
+.pages{
+    padding:10px;
+}
+
+.pages a{
+    display:inline-block;
+    margin:4px 8px;
+    font-size:0.8rem;
+}
+
+.copy{
+    font-size:0.75rem;
+}
+
+}
+}
+
+/* Responsive Navbar for tablets: 481px to 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap; /* allow items to wrap to next line if needed */
+        justify-content: space-between;
+        padding: 5px 10px;
+        height: auto; /* auto height for wrapping */
+    }
+
+    .nav-logo {
+        width: 80px;
+        height: 40px;
+        margin-right: 5px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 40px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .nav-adress {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 0.8rem;
+        margin-right: 10px;
+    }
+
+    .add-first {
+        font-size: 0.7rem;
+        margin-left: 0;
+    }
+
+    .add-sec {
+        font-size: 0.9rem;
+        margin-left: 2px;
+    }
+
+    .nav-search {
+        width: 100%;
+        max-width: 400px;
+        height: 35px;
+        margin: 10px 0;
+    }
+
+    #search-select {
+        width: 40px;
+        font-size: 0.8rem;
+    }
+
+    .search-input {
+        font-size: 0.85rem;
+    }
+
+    .search-icon {
+        width: 40px;
+        font-size: 1.2rem;
+    }
+
+    .nav-sginin, .nav-returns {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.75rem;
+        margin: 0 5px;
+    }
+
+    .nav-sginin span, .nav-returns span {
+        font-size: 0.65rem;
+    }
+
+    .nav-sec {
+        font-size: 0.75rem;
+    }
+
+    .nav-cart {
+        font-size: 0.75rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-cart i {
+        font-size: 25px;
+        margin-right: 3px;
+    }
+
+    /* Panel bar */
+    .panal {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    .panel-ops {
+        flex-wrap: wrap;
+    }
+
+    .panel-ops p {
+        margin: 3px 5px;
+        font-size: 0.75rem;
+        padding: 2px 4px;
+    }
+}
+/* =======================================================
+   TABLET VIEW: (min-width: 481px) and (max-width: 768px)
+   Aisa hi dikhega jaise aapki screenshot mein hai
+   ======================================================= */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* 1. Navbar ko thora compress kiya */
+    .navbar {
+        height: 55px;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    /* Logo thora chota */
+    .nav-logo, .logo {
+        width: 80px;
+        height: 40px;
+    }
+
+    /* Address ko chota kiya taake jagah bane */
+    .nav-adress {
+        margin-right: 5px;
+    }
+    .add-first {
+        font-size: 0.7rem;
+        margin-left: 5px;
+    }
+    .add-sec {
+        font-size: 0.85rem;
+    }
+
+    /* 2. Search Bar ki width tablet ke mutabiq adjust ki */
+    .nav-search {
+        width: 300px; /* Tablet par space kam hoti hai */
+        margin: 0 10px;
+    }
+
+    #search-select {
+        width: 40px;
+        font-size: 0.8rem;
+    }
+
+    /* 3. Sign-in, Returns aur Cart ka size balance kiya */
+    .nav-sginin, .nav-returns {
+        margin-right: 5px;
+    }
+    
+    span {
+        font-size: 0.65rem;
+    }
+
+    .nav-sec {
+        font-size: 0.75rem;
+    }
+
+    .nav-cart {
+        font-size: 0.75rem;
+    }
+    .nav-cart i {
+        font-size: 24px;
+    }
+
+    /* 4. Black Panel Bar (Scrollable) */
+    .panal {
+        justify-content: flex-start;
+        overflow-x: auto; /* Agar items zyada hon to tablet par scroll honge */
+        padding: 0 15px;
+    }
+    .panel-ops p {
+        font-size: 11px;
+        margin: 0 5px;
+        white-space: nowrap; /* Text line change na kare */
+    }
+
+    /* 5. Hero Section (Image adjust) */
+    .hero-section {
+        height: 300px; /* Tablet par image choti rakhi */
+    }
+
+    /* 6. Shop Section: 1 line mein 3 boxes ya 2 boxes (Grid layout) */
+    .shop-section {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box {
+        width: 30%; /* Tablet par 1 line mein 3 boxes dikhenge professional look ke liye */
+        height: auto;
+        margin: 10px 1.5%;
+        padding-bottom: 15px;
+    }
+
+    /* Images ka size tablet ke box ke mutabiq */
+    .box1-image, .box2-image, .box3-image, .box4-image, 
+    .box5-image, .box6-image, .box7-image, .box8-image {
+        height: 220px;
+    }
+
+    .box-content h2 {
+        font-size: 1.1rem;
+    }
+}
